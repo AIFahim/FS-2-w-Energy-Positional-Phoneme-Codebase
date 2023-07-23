@@ -29,13 +29,13 @@ _punctuations = None
 
 # DEFAULT SET OF IPA PHONEMES
 # Phonemes definition (All IPA characters)
-_vowels = "iyɨʉɯuɪʏʊeøɘəɵɤoɛœɜɞʌɔæɐaɶɑɒᵻ"
-_non_pulmonic_consonants = "ʘɓǀɗǃʄǂɠǁʛ"
-_pulmonic_consonants = "pbtdʈɖcɟkɡqɢʔɴŋɲɳnɱmʙrʀⱱɾɽɸβfvθðszʃʒʂʐçʝxɣχʁħʕhɦɬɮʋɹɻjɰlɭʎʟ"
-_suprasegmentals = "ˈˌːˑ"
-_other_symbols = "ʍwɥʜʢʡɕʑɺɧʲ"
-_diacrilics = "ɚ˞ɫ"
-_phonemes = _vowels + _non_pulmonic_consonants + _pulmonic_consonants + _suprasegmentals + _other_symbols + _diacrilics
+# _vowels = "iyɨʉɯuɪʏʊeøɘəɵɤoɛœɜɞʌɔæɐaɶɑɒᵻ"
+# _non_pulmonic_consonants = "ʘɓǀɗǃʄǂɠǁʛ"
+# _pulmonic_consonants = "pbtdʈɖcɟkɡqɢʔɴŋɲɳnɱmʙrʀⱱɾɽɸβfvθðszʃʒʂʐçʝxɣχʁħʕhɦɬɮʋɹɻjɰlɭʎʟ"
+# _suprasegmentals = "ˈˌːˑ"
+# _other_symbols = "ʍwɥʜʢʡɕʑɺɧʲ"
+# _diacrilics = "ɚ˞ɫ"
+# _phonemes = _vowels + _non_pulmonic_consonants + _pulmonic_consonants + _suprasegmentals + _other_symbols + _diacrilics
 
 
 class BaseVocabulary:
@@ -470,7 +470,7 @@ if __name__ == "__main__":
     gr = Graphemes()
     # ph = IPAPhonemes()
     gr.print_log()
-    ph.print_log()
+    # ph.print_log()
 
 
 
